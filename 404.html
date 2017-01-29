@@ -23,7 +23,7 @@
       var pathPrefix = true;
       var l = window.location;
       l.replace(
-'https://lauri3new.github.io/mysite/'
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') 
       );
     </script>
   </head>
